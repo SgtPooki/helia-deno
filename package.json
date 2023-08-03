@@ -8,7 +8,7 @@
     "registry": "https://noop.com"
   },
   "scripts": {
-    "reset": "rimraf node_modules && deno cache --reload main.ts && npm install",
+    "reset": "rimraf node_modules; deno cache --reload main.ts && npm install",
     "dev": "deno run --allow-env --allow-all main.ts",
     "postinstall": "patch-package && run-p cp:*",
     "cp:@achingbrain/ip-address": "cpr 'node_modules/@achingbrain/ip-address' 'node_modules/.deno/@libp2p+utils@3.0.13/node_modules/@achingbrain/ip-address' -o"
