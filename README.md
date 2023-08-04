@@ -17,6 +17,8 @@ npm run dev
 
 # Current blockers
 
+Blocked by deno support for assynmmetricKeyType. See https://github.com/denoland/deno/issues/18928 & https://github.com/denoland/deno/issues/18455
+
 ```
 ╰─ ✔ ❯ npm run dev
 
