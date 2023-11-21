@@ -34,4 +34,4 @@ error: Uncaught Error: Not implemented: crypto.KeyObject.prototype.asymmetricKey
 
 # Notes
 
-I have practically no experience with Deno and this project could probably use many improvements from more Deno-inclined folks.
+I have little experience with Deno and this project could probably use many improvements from more Deno-inclined folks.
