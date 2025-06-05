@@ -1,4 +1,4 @@
-# Helia Deno example
+# Helia Deno@2.3.5 example
 
 It Works!
 
@@ -10,8 +10,13 @@ https://github.com/ipfs/helia/issues/73
 
 ```bash
 
-deno run reset
-deno run --allow-env --allow-ffi --allow-sys --allow-net --unstable-broadcast-channel main.ts
+> deno --version
+deno 2.3.5 (stable, release, aarch64-apple-darwin)
+v8 13.7.152.6-rusty
+typescript 5.8.3
+
+> deno run reset
+> deno run --allow-env --allow-ffi --allow-sys --allow-net --unstable-broadcast-channel main.ts
 ```
 
 # Without the `--allow-env --allow-ffi --allow-sys --allow-net` flags
