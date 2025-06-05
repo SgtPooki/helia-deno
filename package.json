@@ -8,8 +8,7 @@
     "registry": "https://noop.com"
   },
   "scripts": {
-    "reset": "rimraf node_modules; deno cache --reload main.ts && npm install",
-    "dev": "deno run --allow-env --allow-all main.ts"
+    "reset": "rimraf node_modules; deno install --allow-scripts && deno cache --reload main.ts"
   },
   "dependencies": {
     "helia": "2.1.0"
